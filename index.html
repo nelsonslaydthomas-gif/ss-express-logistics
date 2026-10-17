@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111111">
+<title>SS Express Logistics | Lubango</title>
+<style>
+:root{--black:#111;--white:#fff;--paper:#f6f6f3;--grey:#666;--line:#ddd}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:16px/1.55 Arial,sans-serif;background:var(--paper);color:var(--black)}
+.wrap{width:min(1080px,92%);margin:auto}header,.hero,.dark{background:#111;color:#fff}
+header{position:sticky;top:0;z-index:5;border-bottom:1px solid #333}.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;color:white;text-decoration:none}.mark{border:2px solid white;width:44px;height:44px;display:grid;place-items:center;font-weight:900}
+.brand b{font-size:13px;letter-spacing:1.3px}.brand small{display:block;font-size:10px;color:#ccc;letter-spacing:2px}
+nav{display:flex;gap:20px}nav a{color:#ddd;text-decoration:none;font-size:13px}.menu{display:none}
+.hero{padding:70px 0}.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.kicker{font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:bold;color:#777}.hero .kicker{color:#bbb}
+h1{font-size:clamp(38px,6vw,68px);line-height:1.04;letter-spacing:-2px;margin:16px 0}h1 span{color:#bbb}
+h2{font-size:clamp(28px,4vw,42px);line-height:1.12;letter-spacing:-1px;margin:10px 0 14px}h3{margin:14px 0 8px}
+p{margin-top:0}.muted{color:var(--grey)}.hero p{color:#ddd;max-width:550px;font-size:17px}
+.hero-art{border:1px solid #555;padding:30px;min-height:270px;display:flex;flex-direction:column;justify-content:space-between}
+.hero-art strong{font-size:clamp(80px,12vw,130px);letter-spacing:-9px;line-height:1}.hero-art small{letter-spacing:2px}
+.btn{display:inline-block;border:1px solid #111;background:#111;color:#fff;padding:12px 18px;text-decoration:none;font-weight:bold;border-radius:4px;cursor:pointer;font-size:14px}
+.btn.light{background:#fff;color:#111;border-color:#fff}.btn.outline{background:transparent;color:#fff;border-color:#777}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}section{padding:66px 0}.intro{color:var(--grey);max-width:650px}
+.cards,.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:28px}.card,.panel{background:#fff;border:1px solid var(--line);padding:24px;border-radius:5px}.card p{font-size:14px;color:var(--grey);margin-bottom:0}
+.steps{grid-template-columns:repeat(4,1fr)}.steps-wrap{background:#ecece8}.step{padding:20px;background:white;border:1px solid var(--line)}.step p{font-size:13px;color:var(--grey);margin-bottom:0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}
+label{display:block;font-size:13px;font-weight:bold;margin:14px 0 6px}input,select,textarea{width:100%;padding:12px;border:1px solid #ccc;border-radius:4px;font:inherit;background:white}textarea{min-height:85px}
+.form-note{font-size:12px;color:#666;margin-top:12px}.result{display:none;margin-top:14px;background:#eee;padding:14px;white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px}
+.notice{background:#fff6d9;border:1px solid #e5d28c;padding:12px;font-size:12px;margin-top:15px}
+.contact-grid{display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center}.dark .intro{color:#ccc}
+footer{background:#080808;color:#bbb;padding:22px 0;font-size:12px}.foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:760px){.hero-grid,.two,.contact-grid{grid-template-columns:1fr}.cards,.steps{grid-template-columns:1fr 1fr}.nav{position:relative}.menu{display:block;background:#111;color:white;border:1px solid #555;padding:9px;border-radius:4px}nav{display:none;position:absolute;top:76px;left:-4.3%;right:-4.3%;background:#111;padding:18px 5%;flex-direction:column}nav.open{display:flex}.hero{padding:50px 0}section{padding:50px 0}}
+@media(max-width:430px){.cards,.steps{grid-template-columns:1fr}.hero-art strong{letter-spacing:-5px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#inicio"><span class="mark">SS</span><span><b>SS EXPRESS LOGISTICS</b><small>LUBANGO · HUÍLA</small></span></a>
+<button class="menu" id="menuBtn">Menu</button>
+<nav id="nav"><a href="#servicos">Serviços</a><a href="#processo">Como funciona</a><a href="#pedido">Pedir entrega</a><a href="#rastreio">Referência</a><a href="#contacto">Contacto</a></nav>
+</div></header>
+<main>
+<section class="hero" id="inicio"><div class="wrap hero-grid"><div>
+<div class="kicker">Entregas expresso · Lubango</div><h1>As tuas encomendas.<br><span>No caminho certo.</span></h1>
+<p>Uma proposta de serviço de recolha, organização e entrega de documentos, pequenos volumes e mercadorias no Lubango, com acompanhamento por referência.</p>
+<div class="actions"><a class="btn light" href="#pedido">Solicitar entrega</a><a class="btn outline" href="#rastreio">Consultar referência</a></div>
+</div><div class="hero-art"><div><div class="kicker">Logística · Entrega · Confiança</div><strong>SS</strong></div><small>LIGAMOS PESSOAS E NEGÓCIOS</small></div></div></section>
+<section id="servicos"><div class="wrap"><div class="kicker">O que fazemos</div><h2>Um serviço. Várias soluções.</h2><p class="intro">Uma única empresa e um único ponto logístico para recepção, organização e distribuição de encomendas.</p>
+<div class="cards"><article class="card"><div class="kicker">01 / Recolha</div><h3>Recolha de encomendas</h3><p>Pedidos de recolha em lojas, pequenos negócios ou endereços acordados.</p></article>
+<article class="card"><div class="kicker">02 / Organização</div><h3>Recepção e preparação</h3><p>Registo, referência individual e organização para encaminhamento.</p></article>
+<article class="card"><div class="kicker">03 / Distribuição</div><h3>Entrega ao destinatário</h3><p>Coordenação com estafetas e confirmação manual do estado da entrega.</p></article></div></div></section>
+<section class="steps-wrap" id="processo"><div class="wrap"><div class="kicker">Processo simples</div><h2>Da solicitação à entrega.</h2><div class="steps">
+<div class="step"><b>PASSO 01</b><h3>Pedido</h3><p>O cliente fornece os dados de recolha e destino.</p></div>
+<div class="step"><b>PASSO 02</b><h3>Registo</h3><p>A equipa atribui uma referência única após confirmar o pedido.</p></div>
+<div class="step"><b>PASSO 03</b><h3>Distribuição</h3><p>A encomenda é encaminhada para um estafeta.</p></div>
+<div class="step"><b>PASSO 04</b><h3>Confirmação</h3><p>O estado é actualizado manualmente após verificação.</p></div></div></div></section>
+<section id="pedido"><div class="wrap"><div class="kicker">Novo pedido</div><h2>Solicitar uma entrega</h2><p class="intro">Preenche os campos para preparar uma mensagem. Nesta versão, o pedido não é enviado nem guardado automaticamente.</p>
+<div class="two"><form class="panel" id="deliveryForm">
+<label for="client">Nome do cliente</label><input id="client" required placeholder="Nome completo">
+<label for="phone">Telefone do cliente</label><input id="phone" required inputmode="tel" placeholder="Número de contacto">
+<label for="pickup">Local de recolha</label><input id="pickup" required placeholder="Bairro, rua ou referência">
+<label for="destination">Local de entrega</label><input id="destination" required placeholder="Bairro, rua ou referência">
+<label for="parcel">Tipo de encomenda</label><select id="parcel" required><option value="">Seleccionar</option><option>Documento</option><option>Roupa ou acessório</option><option>Pequena encomenda</option><option>Mercadoria comercial</option><option>Outro</option></select>
+<label for="notes">Observações (opcional)</label><textarea id="notes" placeholder="Informações úteis"></textarea>
+<button class="btn" type="submit" style="width:100%;margin-top:18px">Preparar pedido</button><div id="requestResult" class="result" aria-live="polite"></div>
+<p class="form-note">Não introduzas senhas nem dados bancários. O formulário não envia nem guarda dados.</p></form>
+<aside class="panel"><div class="kicker">Antes de confirmar</div><h3>O que acontece a seguir?</h3><p class="muted">A equipa deverá confirmar disponibilidade, preço e horário antes de aceitar o serviço.</p><ul><li>Verificar endereço e contacto.</li><li>Confirmar o preço antes da recolha.</li><li>Atribuir referência pela equipa.</li><li>Registar o pagamento conforme o método acordado.</li></ul><div class="notice">Demonstração: o formulário prepara texto para copiar. Ainda não existe base de dados nem envio automático.</div></aside></div></div></section>
+<section class="steps-wrap" id="rastreio"><div class="wrap two"><div><div class="kicker">Consulta manual</div><h2>Consultar uma referência</h2><p class="intro">Introduz a referência recebida da equipa. Esta versão não consulta registos reais, pois ainda não está ligada a uma base de dados.</p></div>
+<div class="panel"><form id="trackForm"><label for="trackingCode">Referência da encomenda</label><input id="trackingCode" required placeholder="Ex.: SS-00001"><button class="btn" style="width:100%;margin-top:14px">Consultar</button></form><div id="trackResult" class="form-note" aria-live="polite"></div></div></div></section>
+<section class="dark" id="contacto"><div class="wrap contact-grid"><div><div class="kicker">Projecto em preparação</div><h2>SS Express Logistics</h2><p class="intro">Lubango, província da Huíla, Angola.<br>Entregas expresso e apoio logístico para pessoas e negócios.</p></div><div><a class="btn light" href="mailto:contacto@ss-express.example">Contacto por e-mail</a><p class="form-note" style="color:#ccc;max-width:260px">Endereço provisório. Substituir pelo e-mail oficial antes de publicar.</p></div></div></section>
+</main><footer><div class="wrap foot"><span>© <span id="year"></span> SS Express Logistics</span><span>Site inicial de demonstração · Lubango, Angola</span></div></footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+const nav=document.getElementById('nav');document.getElementById('menuBtn').addEventListener('click',()=>nav.classList.toggle('open'));
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+document.getElementById('deliveryForm').addEventListener('submit',e=>{
+e.preventDefault();
+const msg=`PEDIDO DE ENTREGA — SS EXPRESS LOGISTICS
+Nome: ${client.value.trim()}
+Telefone: ${phone.value.trim()}
+Recolha: ${pickup.value.trim()}
+Destino: ${destination.value.trim()}
+Tipo: ${parcel.value}
+Observações: ${notes.value.trim()||'Nenhuma'}
+
+Solicito confirmação de disponibilidade e preço.`;
+const out=document.getElementById('requestResult');out.style.display='block';out.textContent=msg+'\n\nCopia este texto e envia-o à equipa pelo canal oficial quando estiver definido.';
+const b=document.createElement('button');b.className='btn';b.type='button';b.textContent='Copiar texto';b.style.marginTop='10px';b.onclick=async()=>{try{await navigator.clipboard.writeText(msg);b.textContent='Texto copiado';}catch{b.textContent='Copia o texto manualmente';}};out.appendChild(document.createElement('br'));out.appendChild(b);
+});
+document.getElementById('trackForm').addEventListener('submit',e=>{e.preventDefault();const code=document.getElementById('trackingCode').value.trim().toUpperCase();document.getElementById('trackResult').textContent=`A referência ${code} foi introduzida, mas o site ainda não consulta encomendas reais. Contacta a equipa para confirmação manual.`;});
+</script>
+</body></html>
